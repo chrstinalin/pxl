@@ -9,6 +9,14 @@ const buttons = document.querySelectorAll('.buttons button');
 
 buttons.forEach( item => {
 
+    item.addEventListener('click', function(){
+        if(item.classList.contains('select')) item.classList.remove('select');
+        else{
+            buttons.forEach(item => item.classList.remove('select'))
+            item.classList.add('select');
+        }
+    })
+
     item.addEventListener('mouseenter', function(){
         item.classList.add('mouseover');
     })
