@@ -34,12 +34,13 @@ h1{
     flex: 1 0 auto;
 }
 
-.canvas{
+#canvas{
+    display: flex;
+    flex-wrap: wrap;
     width: 500px;
     height: 500px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
-    border-radius: 20px;
 }
 
 .menu, .buttons{
