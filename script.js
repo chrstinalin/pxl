@@ -1,8 +1,8 @@
 
 // Title Generation
-const kaomoji = ["(─‿‿─)♡" , "(´｡• ᵕ •｡`) ♡" , "(*♡∀♡)" , "(｡・//ε//・｡)" , "(´ ω `♡)" , "♡( ◡‿◡ )" , "(◕‿◕)♡" , "♡ (￣З￣)" , "(ღ˘⌣˘ღ)" , "(♡°▽°♡)" , "♡(｡- ω -)" , "♡ ～('▽^人)" , "(´• ω •`) ♡" , "(´ ε ` )♡" , "(´｡• ω •｡`) ♡" , "( ´ ▽ ` ).｡ｏ♡" , "╰(*´︶`*)╯♡" , "(*˘︶˘*).｡.:*♡" , "(♡˙︶˙♡)" , "♡＼(￣▽￣)／♡"];
-const title = document.querySelector('#title');
-title.textContent = `PXL ${kaomoji[Math.floor(Math.random() * 20)]}`
+//const kaomoji = ["(─‿‿─)♡" , "(´｡• ᵕ •｡`) ♡" , "(*♡∀♡)" , "(｡・//ε//・｡)" , "(´ ω `♡)" , "♡( ◡‿◡ )" , "(◕‿◕)♡" , "♡ (￣З￣)" , "(ღ˘⌣˘ღ)" , "(♡°▽°♡)" , "♡(｡- ω -)" , "♡ ～('▽^人)" , "(´• ω •`) ♡" , "(´ ε ` )♡" , "(´｡• ω •｡`) ♡" , "( ´ ▽ ` ).｡ｏ♡" , "╰(*´︶`*)╯♡" , "(*˘︶˘*).｡.:*♡" , "(♡˙︶˙♡)" , "♡＼(￣▽￣)／♡"];
+//const title = document.querySelector('#title');
+//title.textContent = `PXL ${kaomoji[Math.floor(Math.random() * 20)]}`
 
 let mouseClick = false;
 let currentTool = 'pen'
